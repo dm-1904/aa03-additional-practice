@@ -18,6 +18,8 @@ function sort(nums) {
     return [smallNum, ...sort(nums.filter(el => el !== smallNum))]
 }
 
+
+
 console.log(sort([])) // prints []
 console.log(sort([9])) // prints [9]
 console.log(sort([5, 4, 3, 2, 1])) // prints [1, 2, 3, 4, 5]

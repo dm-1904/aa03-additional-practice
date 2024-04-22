@@ -28,7 +28,6 @@ However, for bonus points try to solve it both with recursion and iteration.
 
 function recursivePreserveType(array) {
     return function func(arg, arr = [], index = 0) {
-        // console.log(arr)
         if(index === array.length) return arr
         let el = array[index]
         if(arg === typeof el){

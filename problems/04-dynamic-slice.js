@@ -28,6 +28,9 @@ function dynamicSlice(start, end) {
       return arr1
     }
 }
+
+
+
 const slicer = dynamicSlice(2, 5);
 console.log(slicer([2, 'hello', false, 11, 'goodbye'])); // prints [ 1, 2 ]
 
